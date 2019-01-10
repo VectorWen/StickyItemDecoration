@@ -21,7 +21,7 @@ StickyHeadContainer用来承载粘性头部布局，并且需要和RecyclerView�
     tools:context="com.oubowu.stickydemo.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,7 +31,7 @@ StickyHeadContainer用来承载粘性头部布局，并且需要和RecyclerView�
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 
     <com.oubowu.stickyitemdecoration.StickyHeadContainer
         android:id="@+id/shc"
